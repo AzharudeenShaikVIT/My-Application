@@ -14,3 +14,16 @@ git log --patch
 
 
 git checkout -b <<new branch>>
+
+Merge:
+If you want to copy your local branch changes to master, first push local brnach changes to gitHub.
+Move local branch to master in terminla.
+git merge <test_branch>
+
+
+Reset:
+	git reset <filename> -> to reset back to the specific filename
+	
+Colne:
+	git clone <url>
+		
