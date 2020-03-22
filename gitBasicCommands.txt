@@ -1,0 +1,9 @@
+git init
+
+git add .
+
+git commit -m "<<comments>>"
+
+git remote add origin https://github.com/AzharudeenShaikVIT/MyApplications.git
+
+git push -u origin  master
