@@ -7,3 +7,10 @@ git commit -m "<<comments>>"
 git remote add origin https://github.com/AzharudeenShaikVIT/MyApplications.git
 
 git push -u origin  master
+
+git log
+git log --stat
+git log --patch 
+
+
+git checkout -b <new branch>
