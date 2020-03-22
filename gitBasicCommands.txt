@@ -13,4 +13,4 @@ git log --stat
 git log --patch 
 
 
-git checkout -b <new branch>
+git checkout -b <<new branch>>
