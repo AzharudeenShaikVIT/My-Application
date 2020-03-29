@@ -1,0 +1,65 @@
+git init
+
+git add .
+
+git commit -m "<<comments>>"
+
+git remote add origin https://github.com/AzharudeenShaikVIT/MyApplications.git
+
+git push -u origin  master
+
+git log
+git log --stat
+git log --patch 
+
+
+git checkout -b <<new branch>>
+
+Merge:
+If you want to copy your local branch changes to master, first push local brnach changes to gitHub.
+Move local branch to master in terminla.
+git merge <test_branch>
+
+
+Reset:
+	git reset <filename> -> to reset back to the specific filename
+	
+Colne:
+	git clone <url>
+
+____________________________________________________
+--------------------------
+Make one account active:
+--------------------------
+	ssh-add -l
+	ssh-add -D
+	eval $(ssh-agent -s)
+	ssh-add ~/.ssh/id_rsa_work_philips
+	ssh -T git@github.com  
+			-> Azharudeen-S Philips account
+
+	ssh-add -l
+	ssh-add -D
+	eval $(ssh-agent -s)
+	ssh-add ~/.ssh/id_rsa_personal
+	ssh -T git@github.com  
+			-> AzharudeenShaikVIT Personal account
+____________________________________________________
+
+
+
+_________________________________________________________
+-----------------------
+GitHub Setup Example:
+-----------------------
+ssh-keygen -t rsa -b 4096 -C "azharudeen.s@philips.com"
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+	add id_rsa.pub key to gitHub account
+ssh -T git@github.com 
+_________________________________________________________
+
+	
+https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/	
+https://medium.com/the-andela-way/a-practical-guide-to-managing-multiple-github-accounts-8e7970c8fd46	
+	
